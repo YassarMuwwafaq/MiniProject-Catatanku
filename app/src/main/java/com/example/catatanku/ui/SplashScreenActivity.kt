@@ -1,4 +1,4 @@
-package com.example.catatanku.UI
+package com.example.catatanku.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -20,6 +20,6 @@ class SplashScreenActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 7000)
+        }, 5000)
     }
 }

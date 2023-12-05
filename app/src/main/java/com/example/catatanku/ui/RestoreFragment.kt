@@ -1,4 +1,4 @@
-package com.example.catatanku.UI
+package com.example.catatanku.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.example.catatanku.UI.TambahNotedActivity
 import com.example.catatanku.databinding.ActivityMainBinding
+import com.example.catatanku.ui.DetailCatatanActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavView.setupWithNavController(navController)
 
         binding.fab.setOnClickListener{
-            val intent = Intent(this@MainActivity, TambahNotedActivity::class.java)
+            val intent = Intent(this@MainActivity, DetailCatatanActivity::class.java)
             startActivity(intent)
             finish()
         }
